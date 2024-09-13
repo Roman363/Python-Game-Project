@@ -13,7 +13,7 @@ player_y = HEIGHT // 2 - player_size // 2
 player_speed = 25
 
 player = canvas.create_rectangle(player_x, player_y, player_x + player_size,
-                                 playuer_y + player_size, fill="white")
+                                 player_y + player_size, fill="white")
 
 def move_player(event):
     global player_x, player_y
