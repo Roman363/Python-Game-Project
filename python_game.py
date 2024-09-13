@@ -29,10 +29,10 @@ def move_player(event):
     canvas.coords(player, player_x, player_y,
                    player_x + player_size, player_y + player_size)
     
-window.bind("Left", move_player)
-window.bind("Right", move_player)
-window.bind("Up", move_player)
-window.bind("Down", move_player)
+window.bind("<Left>", move_player)
+window.bind("<Right>", move_player)
+window.bind("<Up>", move_player)
+window.bind("<Down>", move_player)
 
 window.mainloop()
 
